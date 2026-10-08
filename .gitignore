@@ -1,0 +1,26 @@
+# Project Management System
+
+## Root
+node_modules/
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+## Backend
+backend/node_modules/
+backend/dist/
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+backend/.env
+
+## Web
+web/node_modules/
+web/dist/
+
+## Mobile
+mobile/node_modules/
+mobile/.expo/
+mobile/android/
+mobile/ios/
+mobile/web-build/
