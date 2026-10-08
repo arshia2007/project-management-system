@@ -7,12 +7,19 @@ import { Ionicons } from '@expo/vector-icons';
 import { ActivityIndicator, View } from 'react-native';
 
 import { AuthProvider, useAuth } from './src/context/AuthContext';
-import LoginScreen from './src/screens/LoginScreen';
-import RegisterScreen from './src/screens/RegisterScreen';
-import DashboardScreen from './src/screens/DashboardScreen';
-import ProjectsScreen from './src/screens/ProjectsScreen';
-import ProjectDetailsScreen from './src/screens/ProjectDetailsScreen';
-import TasksScreen from './src/screens/TasksScreen';
+// import LoginScreen from './src/screens/LoginScreen';
+import { LoginScreen } from './src/screens/LoginScreen';
+// import RegisterScreen from './src/screens/RegisterScreen';
+import { RegisterScreen } from './src/screens/RegisterScreen';
+// import DashboardScreen from './src/screens/DashboardScreen';
+import { DashboardScreen } from './src/screens/DashboardScreen';
+// import ProjectsScreen from './src/screens/ProjectsScreen';
+// import ProjectDetailsScreen from './src/screens/ProjectDetailsScreen';
+// import TasksScreen from './src/screens/TasksScreen';
+
+import { ProjectsScreen } from './src/screens/ProjectsScreen';
+import { ProjectDetailsScreen } from './src/screens/ProjectDetailsScreen';
+import { TasksScreen } from './src/screens/TasksScreen';
 
 // ─── Type Definitions ────────────────────────────────────────────────
 export type AuthStackParamList = {
